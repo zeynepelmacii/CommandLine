@@ -1,0 +1,28 @@
+How to change title?
+  -Title Zeynep's command line
+  
+  
+How to change color?
+-color 09 means set background color to black and set foreground color to light blue
+  -if you type color/? you can see all color options.
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+  
+  
+What are tree, dir and CD means?
+  -Tree: displays the files in your current directory in a branched format
+         all you have to do is type tree in your current place and you will see 
+         C:\Users\zeyne\Documents>tree ==>> It will display the files and folders in a branched format in the documents file of the zeynep user on the C drive.
+         
+  -Dir: displays the files in your current directory in a listed format
+         all you have to do is type dir in your current place and you will see 
+         C:\Users\zeyne\Documents>tree ==>> It will display the files and folders in a listed format in the documents file of the zeynep user on the C drive.
+         
+  -cd: whatever you type after the cd, command line will go there whatever you type after the cd, command line will go there
+       C:\Users\zeyne>cd documents ==>> now it become this C:\Users\zeyne\Documents> 
