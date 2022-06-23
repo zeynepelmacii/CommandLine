@@ -22,3 +22,4 @@ taskkill /im AppName.extensionName ==> if i add /f it will close with unsaved ch
 command: mkdir titleOfDirectory
 example: mkdir Topics\Programming
          mkdir CV\my\c\v\1\2 ....
+
