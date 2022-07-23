@@ -1,0 +1,3 @@
+run promp as admin
+powercfg /energy ->energy report
+powercfg /batteryreport
