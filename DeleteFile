@@ -1,0 +1,3 @@
+Del + fileName.extension
+
+Del baggage*.jps => delets all jpg file which starts with baggage
