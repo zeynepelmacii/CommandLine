@@ -1,0 +1,14 @@
+equ= equal
+neq= not equal
+lss= less tah
+leq= less than or equal
+gtr= greater than
+geq= greater than or equal
+
+--Example
+  echo enter a number
+  set /p num=">"
+  if %num% equ 10(echo the number is 10)
+  else if %num% lss 10(echo the number less than 10)
+  else(echo the num is greater than 10)
+  pause
