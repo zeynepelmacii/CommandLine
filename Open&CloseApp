@@ -1,0 +1,11 @@
+You shold reach the extensin of file for open and close apps
+
+------Open Task Manager------
+ctrl+Shift+esc
+it's for 
+
+------Open App------
+command: start AppName.extensionName
+
+------Close App------
+taskkill /im AppName.extensionName ==> if i add /f it will close with unsaved changes
