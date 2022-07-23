@@ -1,0 +1,57 @@
+---Example
+*this batch file changes the color and display "this is a dir test" then add 3 lines
+  @Echo off
+  title this is my batch exercise
+  color 05
+  echo this is a dir test
+  echo.
+  echo.
+  echo.
+  dir 
+  pause
+    
+    
+---Example
+*here batch file displays a variable called sum then assign 7 to it then displays it
+    @Echo off
+    set sum=7
+    echo 7
+    
+---Example   
+*multiplication
+* /a is calculation
+      @Echo off
+      echo enter a num
+      set /p a=">"
+      echo enter a second num
+      set /p b=">"
+      set /a multi=a*bc
+      echo %multi%
+      pause
+    
+ ---Example   
+*shutdown the computer
+* :: is comment in batch file
+      @Echo off
+      Title shutdown sheduler
+      echo in how many min?
+      set /p min=">"
+      set /q sec = min*60 :: becuse shutdown understands seconds
+      echo cumputer wil be shutdown in %sec% sec
+      shutdown /s/f/t %sec%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
