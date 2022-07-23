@@ -1,0 +1,4 @@
+------Create Folder------
+command: mkdir titleOfDirectory
+example: mkdir Topics\Programming
+         mkdir CV\my\c\v\1\2 ....
